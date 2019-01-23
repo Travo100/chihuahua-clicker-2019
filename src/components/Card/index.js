@@ -5,7 +5,6 @@ function Card(props) {
     return (
         <div
             style={{ backgroundImage: `url(${props.image})` }}
-            key={props.id}
             className="chi-card col-md-4"
             onClick={() => props.handleClicked(props.id)}
         >
