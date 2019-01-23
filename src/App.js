@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import cards from "./cards.json";
 import Scoreboard from "./components/Scoreboard";
 import Card from "./components/Card";
